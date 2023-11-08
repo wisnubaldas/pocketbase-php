@@ -1,0 +1,20 @@
+{
+  "name": "wisnubaldas/pocketbase-php-sdk",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jonathan Martz",
+      "role": "Maintainer"
+    }
+  ],
+  "autoload": {
+    "classmap": [
+      "src/Client.php",
+      "src/Settings.php",
+      "src/Collection.php"]
+  },
+  "require": {
+    "php": "^7.4|^8.1|^8.2",
+    "ext-curl": "*"
+  }
+}
